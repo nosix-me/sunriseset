@@ -1,6 +1,6 @@
 sunriseset
 ========
-[![Build Status](https://drone.io/github.com/widuu/goini/status.png)](https://drone.io/github.com/nosix-me/sunriseid/1)
+[![Build Status](https://drone.io/github.com/widuu/goini/status.png)](https://drone.io/github.com/nosix-me/sunriseset/4)
 
 ##描述
 
