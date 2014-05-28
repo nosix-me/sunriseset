@@ -1,7 +1,6 @@
 sunriseset
 ========
-[![Build Status](https://drone.io/github.com/widuu/goini/status.png)](https://drone.io/github.com/nosix-me/sunriseset/4)
-
+[![Build Status](https://drone.io/github.com/nosix-me/sunriseset/status.png)](https://drone.io/github.com/nosix-me/sunriseset/latest)
 ##描述
 
 计算日出日落
