@@ -12,9 +12,20 @@ sunriseset
 
 ##使用方法
     //北京的经纬度 116.46,39.92
-    rsr := &SunRiseSet{uto: 180.0, lat: 39.92, long: 116.46, date: "2014-05-28"}
-    rise := srs.SunRise().GetRise()
-    set := srs.SunSet().GetSet()
+    package main
+
+	import (
+		"fmt"
+		"github.com/nosix-me/sunriseset"
+	)
+
+	func main() {
+		srs := &sunriseset.SunRiseSet{Uto: 180.0, Lat: 39.92, Long: 116.46, Date: "2014-05-28"}
+		rise := srs.SunRise().GetRise()
+		set := srs.SunSet().GetSet()
+		fmt.Println(rise)
+		fmt.Println(set)
+	}
 
 
 
