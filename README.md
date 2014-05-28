@@ -10,6 +10,12 @@ sunriseset
 	
 	go get github.com/nosix-me/sunriseset
 
+##使用方法
+    //北京的经纬度 116.46,39.92
+    rsr := &SunRiseSet{uto: 180.0, lat: 39.92, long: 116.46, date: "2014-05-28"}
+    rise := srs.SunRise().GetRise()
+    set := srs.SunSet().GetSet()
+
 
 
 	
