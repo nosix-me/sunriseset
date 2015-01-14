@@ -1,7 +1,6 @@
 package sunriseset
 
 import (
-	"fmt"
 	"log"
 	"math"
 	"strconv"

@@ -19,11 +19,9 @@ sunriseset
 	)
 
 	func main() {
-		srs := &sunriseset.SunRiseSet{Uto: 180.0, Lat: 39.92, Long: 116.46, Date: "2014-05-28"}
-		rise := srs.SunRise().GetRise()
-		set := srs.SunSet().GetSet()
-		fmt.Println(rise)
-		fmt.Println(set)
+		srs := &SunRiseSet{Lat: 34.1234, Long: 123.43434, Date: "2014-05-28"}
+		log.Println(srs.GetSunRise())
+		log.Println(srs.GetSunSet())
 	}
 
 
