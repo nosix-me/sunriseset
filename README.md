@@ -14,14 +14,14 @@ sunriseset
     package main
 
 	import (
-		"fmt"
 		"github.com/nosix-me/sunriseset"
+		"fmt"
 	)
 
 	func main() {
-		srs := &SunRiseSet{Lat: 34.1234, Long: 123.43434, Date: "2014-05-28"}
-		log.Println(srs.GetSunRise())
-		log.Println(srs.GetSunSet())
+		srs := &sunriseset.SunRiseSet{Lat: 39.92, Long: 116.46, Date: "2015-01-14"}
+		fmt.Println(srs.GetSunRise())
+		fmt.Println(srs.GetSunSet())
 	}
 
 
